@@ -10,7 +10,7 @@ const UserHomepage = () => {
   useEffect(() => {
     const fetchCartItems = async () => {
       try {
-        const response = await axios.get(`http://44.211.249.149:8001/api/cart-items/${userId}/`, { withCredentials: true });
+        const response = await axios.get(`http://localhost:8001/api/cart-items/${userId}/`, { withCredentials: true });
         setCartItems(response.data);
       } catch (error) {
         console.error('Error fetching cart items:', error);

@@ -10,7 +10,7 @@ const SignupPage = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://44.211.249.149:8001/signup/', { username, password, email });
+      const response = await axios.post('http://localhost:8001/signup/', { username, password, email });
       console.log(response.data); 
     } catch (error) {
       console.error('Signup error:', error);

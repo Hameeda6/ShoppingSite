@@ -13,7 +13,7 @@ const LoginPage = ({ onLogin }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://44.211.249.149:8001/login/', { username, password }, { withCredentials: true });
+      const response = await axios.post('http://localhost:8001/login/', { username, password }, { withCredentials: true });
       console.log(response.data);
       // Assuming your API returns some confirmation data upon successful login
       if (response.data.message === 'Login successful') {

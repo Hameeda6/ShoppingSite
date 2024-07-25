@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:8001/api';
-const API_URL = 'http://44.211.249.149:8001/';
+const API_URL = 'http://localhost:8001/';
 
 
 export const getProducts = () => {
