@@ -1,0 +1,25 @@
+/* src/components/SideNav.css */
+
+.sidenav {
+    width: 200px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    position: fixed;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidenav ul li {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .sidenav ul li:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  

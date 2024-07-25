@@ -1,0 +1,29 @@
+/* src/components/NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .navbar-buttons .navbar-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons .navbar-button:hover {
+    background-color: #777;
+  }
+  

@@ -1,0 +1,26 @@
+/* src/components/MensPage.css */
+
+.page {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+  }
+  
